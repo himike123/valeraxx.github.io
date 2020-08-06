@@ -52,7 +52,7 @@ html, body {
   
   .btn {
     color: #b19cd9;
-    background-color: #000000;
+    background: #000000;
     padding: 10px 40px;
     text-decoration: none; 
     transition: background .5s;
