@@ -82,7 +82,7 @@ html, body {
     transition: background .5s; 
   }
   
-  .btn:hover, .nav ul li:hover {
+  .btn:hover {
     background: #800080;
     cursor: pointer; 
     transition: background .5s;  
