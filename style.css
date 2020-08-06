@@ -42,11 +42,8 @@ html, body {
   }
   
   .header p {
-<<<<<<< HEAD
     color: #000;
-=======
     color: #b19cd9;
->>>>>>> a8f287ae5919681e4fcc7d5ffc7ec65e4c987676
     font-weight: 500;
     letter-spacing: 8px;
     margin-bottom: 40px;
@@ -60,11 +57,8 @@ html, body {
     padding: 10px 40px;
     text-decoration: none; 
     transition: background .5s;
-<<<<<<< HEAD
     border-radius: 10px; 
-=======
     border-radius: 15px; 
->>>>>>> a8f287ae5919681e4fcc7d5ffc7ec65e4c987676
   }
   
   .nav { 
