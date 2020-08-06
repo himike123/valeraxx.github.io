@@ -22,8 +22,8 @@ html, body {
   }
   
   .header .container {
-    position: 57px;
-    top: 67;
+    position: relative;
+    top: 67px;
   }
   
   .header h1 {
