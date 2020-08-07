@@ -46,11 +46,7 @@ body {
     margin-left: 37%;
     margin-bottom: -1%;
 }
-.header .ree {
-    margin-left: 28%;
-    margin-top: -1%;  
 
-}
 .btn {
     color: #b19cd9;
     background-color: #000000;
@@ -63,4 +59,70 @@ body {
 .btn:hover{
     background: #800080;
     cursor: pointer; 
+}
+.sidenav {
+    height: 90%; 
+      width: 160px;
+      position: fixed; 
+      top: 0; 
+      left: 0; 
+      overflow-x: hidden; 
+      padding-top: 20px;
+      transition: 0.5s;
+}
+.sidenav a {
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #b19cd9;
+    display: block;
+    transition: background .5s;
+    border-radius: 2px; 
+}
+.sidenav a:hover {
+    color: #800080;
+    cursor: pointer; 
+}
+.disc {
+    color: #b19cd9;
+    text-align: center;
+    margin-top: 30%;
+}
+.sidenav .closebtn {
+    top: 0;
+    right: 60px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.yes {
+    color: #b19cd9;
+    background-color: #000000;
+    padding: 10px 30px;
+    text-decoration: none; 
+    transition: background .5s;
+    border-radius: 10px; 
+    position: fixed;
+}
+.header p {
+    color: #b19cd9;
+    line-height: 100px; 
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 80px;
+    text-align: center; 
+}
+.header .ree {
+    color: #b19cd9;
+    background-color: #000000;
+    padding: 10px 30px;
+    text-decoration: none; 
+    transition: background .5s;
+    border-radius: 10px; 
+    left:40px ;
+    margin-left: 10%;
+    margin-top: -1%;  
+}
+.header .ree:hover {
+    background-color: purple;
+    cursor: pointer;
 }
