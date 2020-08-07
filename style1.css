@@ -3,6 +3,14 @@ html, body {
     padding: 0px;
     padding-top: 0px;
 }
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}
 @keyframes backgroundColorPalette{
 	0% {
 		background: #9932CC;
@@ -13,6 +21,10 @@ html, body {
 	
 }
 body {
+    position: relative;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     background-color: #333333;
@@ -71,7 +83,7 @@ body {
     background-color: #333333;
     background-size: cover;
     padding-bottom: 50px;
-
+    text-align: center;
 }
 
 
