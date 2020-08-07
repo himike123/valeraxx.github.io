@@ -11,6 +11,16 @@ html, body {
         opacity: 1; 
      } 
 }
+@media (max-width: 200px) {
+    .header  {
+      font-size: 10px;
+      line-height: 54px;
+}   }
+@media (min-width:850px) {
+    .header  {
+      font-size: 15px;
+    }
+  }
 body {
     position: relative;
     animation: fadeInAnimation ease 5s;
@@ -38,7 +48,8 @@ body {
 }
 .header .ree {
     margin-left: 260px;
-    margin-top: -17px;  
+    margin-top: -15px;  
+
 }
 .btn {
     color: #b19cd9;
