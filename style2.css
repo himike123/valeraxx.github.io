@@ -86,7 +86,7 @@ body {
 .disc {
     color: #b19cd9;
     text-align: center;
-    margin-top: 100%;
+    position: relative;
 }
 .sidenav .closebtn {
     top: 0;
