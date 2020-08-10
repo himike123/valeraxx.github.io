@@ -1,4 +1,4 @@
-///help
+
 html, body {
     margin: 0px;
     padding: 0px;
@@ -40,7 +40,7 @@ body {
     line-height: 100px; 
     font-size: 40px;
     margin-top: 0;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     text-align: center;
 }
 .header a {
@@ -126,4 +126,8 @@ body {
 .header .ree:hover {
     background-color: purple;
     cursor: pointer;
+}
+.help {
+    margin-left: 0%;
+    margin-top: -8.5%;
 }
